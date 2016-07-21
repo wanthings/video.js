@@ -1,7 +1,7 @@
 {
     "evil" : true,
     "validthis": true,
-    "browser"  : true,
+    "node"     : true,
     "debug"    : true,
     "boss"     : true,
     "expr"     : true,
@@ -11,10 +11,10 @@
     "trailing" : true,
     "undef"    : true,
     "laxbreak" : true,
+    "esnext"   : true,
+    "eqeqeq"   : true,
     "predef"   : [
         "_V_",
-        "videojs",
-        "vjs",
         "goog",
         "console",
 
@@ -24,7 +24,7 @@
         "exports",
         "process",
 
-        "PlayerTest",
+        "q",
         "asyncTest",
         "deepEqual",
         "equal",
@@ -34,12 +34,14 @@
         "notEqual",
         "notStrictEqual",
         "ok",
+        "throws",
         "QUnit",
         "raises",
         "start",
         "stop",
         "strictEqual",
         "test",
+        "throws",
         "sinon"
     ]
 }
